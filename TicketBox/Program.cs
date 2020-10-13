@@ -25,9 +25,9 @@ namespace TicketBox
 
         public async static Task getUserAsync()
         {
-            var clientId = "aea0edd8-3011-4c3a-b618-e1613b5d4240";
-            var tenantId = "3baceaf5-19f8-44ae-a3d3-9dd826b144d8";
-            var clientSecret = "b05rGrW9x.mX.5_3s.bC~04pOe2aCA445x";
+            var clientId = "";
+            var tenantId = "";
+            var clientSecret = "";
 
             IConfidentialClientApplication confidentialClientApplication = ConfidentialClientApplicationBuilder
                 .Create(clientId)
